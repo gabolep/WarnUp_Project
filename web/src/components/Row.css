@@ -1,0 +1,21 @@
+
+.deleteButton{
+    padding-top: 15px;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.row:hover{
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+    background-color: #fafafa;
+    transition: 0.3s;
+}
+.row:hover .deleteButton{
+    visibility: visible;
+    
+}
