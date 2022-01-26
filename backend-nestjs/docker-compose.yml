@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  backend:
+    container_name: backend-core
+    image: warnup-server-image
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "4000:4000"
+    networks:
+      - app
+      
+  frontend:
+    container_name: frontend-core
+    image: warnup-front-image
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    networks:
+      - app
+
+networks:
+  app:
