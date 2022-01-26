@@ -82,12 +82,12 @@ class New extends Component{
         const dayToday = dateToday.getDate();
         const monthToday = dateToday.getMonth() + 1;
         const yearToday = dateToday.getFullYear();
-        let daysPassed;
+        var yesterday = new Date(new Date().setDate(new Date().getDate()-1));
+        const yesterdayDay = yesterday.getDate();
+        const yesterdayMonth = yesterday.getMonth() + 1;
+       
 
-        if(monthToday === monthNew){
-            daysPassed = dayToday - dayNew;
-        }
-
+       
         if(dayNew === dayToday && monthNew === monthToday && yearNew === yearToday ){
             let hourNew = dateServer.getHours();
             const minutesNew = dateServer.getMinutes();
@@ -107,7 +107,7 @@ class New extends Component{
                     date = hourNew.toString() +":"+ minutesNew.toString() + " pm";
                 }
             }
-        }else if( daysPassed === 1){
+        }else if( dayNew === yesterdayDay && monthNew === yesterdayMonth){
             date = "yesterday";
         }else{
             let monthName;
