@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "fontSize": "4rem",
+        "fontWeight": "630",
+      }
+    }
+  >
+    HN Feed
+  </div>
+  <div
+    style={
+      Object {
+        "fontSize": "1.3rem",
+        "fontWeight": "300",
+        "paddingLeft": "5px",
+      }
+    }
+  >
+    We 
+    &lt;3
+     hacker news!
+  </div>
+</div>
+`;

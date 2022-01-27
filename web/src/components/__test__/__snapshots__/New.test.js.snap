@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<tr
+  className="row"
+  style={
+    Object {
+      "alignItems": "left",
+      "borderBottom": "solid 1px #ccc",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "listStyleType": "none",
+    }
+  }
+  value="url"
+>
+  <td
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": "13pt",
+        "fontWeight": "600",
+        "paddingLeft": "15px",
+        "paddingTop": "15px",
+        "width": "100%",
+      }
+    }
+  >
+     
+    title
+     
+    <span
+      style={
+        Object {
+          "color": "#999",
+          "fontSize": "13pt",
+          "fontWeight": "600",
+          "paddingLeft": "5px",
+        }
+      }
+    >
+      -
+      author
+      -
+    </span>
+  </td>
+  <td
+    onClick={[Function]}
+    style={
+      Object {
+        "color": "#333",
+        "fontSize": "13pt",
+        "fontWeight": "600",
+        "marginRight": "10px",
+        "paddingTop": "15px",
+        "right": "250px",
+        "width": "10%",
+      }
+    }
+  >
+    Jan 20
+  </td>
+  <td>
+    <button
+      New={true}
+      className="deleteButton"
+      data-testid="deleteButton"
+      id="deleteButton"
+      n={
+        Object {
+          "author": "author",
+          "created_at": "2022-01-20T15:19:13.000+00:00",
+          "state": true,
+          "story_id": 1,
+          "story_title": "story title",
+          "story_url": "story_url",
+          "title": "title",
+          "url": "url",
+        }
+      }
+      onClick={[Function]}
+    >
+      <img
+        alt="a"
+        height="30"
+        src="./trash/trash3.png"
+        width="27"
+      />
+    </button>
+  </td>
+</tr>
+`;

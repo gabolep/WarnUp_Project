@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div>
+  <nav
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#303030",
+        "boxShadow": "0 2px 3px rgb(0,0,0,0.1)",
+        "color": "#fff",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": "220px",
+        "justifyContent": "space-between",
+        "padding": "0 50px",
+        "position": "relative",
+      }
+    }
+  >
+    <div>
+      <div
+        style={
+          Object {
+            "fontSize": "4rem",
+            "fontWeight": "630",
+          }
+        }
+      >
+        HN Feed
+      </div>
+      <div
+        style={
+          Object {
+            "fontSize": "1.3rem",
+            "fontWeight": "300",
+            "paddingLeft": "5px",
+          }
+        }
+      >
+        We 
+        &lt;3
+         hacker news!
+      </div>
+    </div>
+  </nav>
+  <div
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "color": "#0A283E",
+        "display": "flex",
+        "flexDirection": "column",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "width": "90%",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "color": "#000000",
+            "cursor": "pointer",
+            "marginTop": "40px",
+            "position": "static",
+          }
+        }
+      >
+        <table
+          style={
+            Object {
+              "margin": 0,
+              "padding": 0,
+              "width": "100%",
+            }
+          }
+        >
+          <tbody />
+        </table>
+      </div>
+    </div>
+  </div>
+  <footer
+    data-testid="footer"
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#303030",
+        "bottom": "0",
+        "color": "#fff",
+        "flexDirection": "column",
+        "height": "100px",
+        "marginTop": "100px",
+        "position": "absolute",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <h3
+      data-testid="h3"
+      style={
+        Object {
+          "fontSize": "1rem",
+          "fontWeight": "630",
+          "paddingTop": "20px",
+          "textAlign": "center",
+        }
+      }
+    >
+      website created by Gabriel Escudero
+    </h3>
+  </footer>
+</div>
+`;

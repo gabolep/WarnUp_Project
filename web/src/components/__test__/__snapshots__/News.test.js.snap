@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000000",
+      "cursor": "pointer",
+      "marginTop": "40px",
+      "position": "static",
+    }
+  }
+>
+  <table
+    style={
+      Object {
+        "margin": 0,
+        "padding": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <tbody />
+  </table>
+</div>
+`;

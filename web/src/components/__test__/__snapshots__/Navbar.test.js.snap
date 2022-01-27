@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<nav
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#303030",
+      "boxShadow": "0 2px 3px rgb(0,0,0,0.1)",
+      "color": "#fff",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": "220px",
+      "justifyContent": "space-between",
+      "padding": "0 50px",
+      "position": "relative",
+    }
+  }
+>
+  <div>
+    <div
+      style={
+        Object {
+          "fontSize": "4rem",
+          "fontWeight": "630",
+        }
+      }
+    >
+      HN Feed
+    </div>
+    <div
+      style={
+        Object {
+          "fontSize": "1.3rem",
+          "fontWeight": "300",
+          "paddingLeft": "5px",
+        }
+      }
+    >
+      We 
+      &lt;3
+       hacker news!
+    </div>
+  </div>
+</nav>
+`;

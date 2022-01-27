@@ -8,7 +8,6 @@ const styles = {
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'left',
-       
         borderBottom: 'solid 1px #ccc'
     },
     story_title: {
@@ -158,7 +157,7 @@ class New extends Component{
                     <td style = {styles.created_at}  onClick={() => this.openNew(n)} >{date}</td>
                     {/*button to delete the news*/}
                     <td>
-                        <button id='deleteButton' className="deleteButton" onClick = {(e) => this.deleteNew(n,e)}  {...this.props}>
+                        <button id='deleteButton' data-testid="deleteButton" className="deleteButton" onClick = {(e) => this.deleteNew(n,e)}  {...this.props}>
                             <img src='./trash/trash3.png' alt="a" width ='27' height='30' />
                         </button>  
                     </td>
