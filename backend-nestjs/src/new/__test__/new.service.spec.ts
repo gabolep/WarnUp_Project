@@ -6,6 +6,7 @@ import { NewModule } from '../new.module';
 import { New } from '../new.model';
 import { New as NewInterface } from '../interfaces/new.interface';
 import { Model } from 'mongoose';
+import { MongooseModule } from '@nestjs/mongoose';
 
 
 
@@ -13,7 +14,7 @@ import { Model } from 'mongoose';
 
 describe('NewService', () => {
   let service: NewService;
-  
+  let model: Model<NewInterface>;
  
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({

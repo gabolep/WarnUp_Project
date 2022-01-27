@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<footer
+  data-testid="footer"
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#303030",
+      "bottom": "0",
+      "color": "#fff",
+      "flexDirection": "column",
+      "height": "100px",
+      "marginTop": "100px",
+      "position": "absolute",
+      "textAlign": "center",
+      "width": "100%",
+    }
+  }
+>
+  <h3
+    data-testid="h3"
+    style={
+      Object {
+        "fontSize": "1rem",
+        "fontWeight": "630",
+        "paddingTop": "20px",
+        "textAlign": "center",
+      }
+    }
+  >
+    website created by Gabriel Escudero
+  </h3>
+</footer>
+`;

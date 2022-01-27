@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import React from 'react';
 
 const styles = {
     footer: {
@@ -24,8 +25,8 @@ const styles = {
 class Footer extends Component {
     render(){
         return(
-            <footer style = {styles.footer} > 
-                <h3 style = {styles.author}>website created by Gabriel Escudero</h3>
+            <footer data-testid="footer" style = {styles.footer} > 
+                <h3 data-testid= "h3" style = {styles.author}>website created by Gabriel Escudero</h3>
             </footer> 
         )
     }
